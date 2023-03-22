@@ -1,4 +1,3 @@
-
 #include "main.h"
 	/**
 	 * main - print _putchar
@@ -6,18 +5,14 @@
 	 * Return: 0
 	 */
 
+int main(void)
+{
+	char str[] = "_putchar";
+	int ch;
 
-	int main(void)
-	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	for(ch = 0 ; ch < 8 ; ch ++)
+		_putchar(st[ch]);
 	_putchar('\n');
-	return (0);
-	}
 
+	return (0);
+}
